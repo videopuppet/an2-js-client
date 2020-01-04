@@ -1,0 +1,35 @@
+{
+  "name": "an2-js-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/videopuppet/an2-js-client.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Gojko Adzic",
+    "email": "gojko@gojko.com",
+    "url": "https://gojko.net"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/videopuppet/an2-js-client/issues"
+  },
+  "homepage": "https://github.com/videopuppet/an2-js-client#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "jest"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/src/",
+      "<rootDir>/tests/"
+    ]
+  }
+}
